@@ -1,0 +1,39 @@
+baseurl = "https://hugogalvao.com/"
+relativeURLs = false
+languageCode = "pt-pt"
+title = "Hugo Galvão - Software Engineer"
+disqusShortname = "shortcode-here"
+paginate = 5
+theme = "hugo-geo"
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+	
+	analytics = "code-here"
+
+	github = "https://github.com/hgalvao"
+	twitter = "https://twitter.com/hugalvao"
+    	linkedin = "https://pt.linkedin.com/in/hugogalvao"
+    	email = "hugo.galvao@gmail.com"
+
+	
+	profilepic = "img/profile.png"
+	
+	title = "Hugo Galvão"
+	subtitle = "Software Engineer"
+	
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/"
